@@ -1,0 +1,197 @@
+[
+    {
+        "dataType": "string",
+        "displayedName": "Topological Features",
+        "isNode": true,
+        "key": "topologicalFeatures",
+        "possibleValues": [
+            "Co-factor",
+            "Scaffold",
+            "Receptor",
+            "Ligand"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Pathways",
+        "isNode": true,
+        "key": "pathways",
+        "possibleValues": [
+            "Innate immune pathways",
+            "B-cell receptor",
+            "Toll-like receptor"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Tissues",
+        "isNode": true,
+        "key": "tissues",
+        "possibleValues": [
+            "UBERON:0002101"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Minor Cellular Localization",
+        "isNode": true,
+        "key": "minorCellularLocalization",
+        "possibleValues": [
+            "GO:0005618(cell wall)"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Major Cellular Localization",
+        "isNode": true,
+        "key": "majorCellularLocalization",
+        "possibleValues": [
+            "GO:0044099(polar tube)",
+            "GO:0005618(cell wall)"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Molecule Type",
+        "isNode": true,
+        "key": "moleculeType",
+        "possibleValues": [
+            "MI:0326(protein)",
+            "MI:0320(ribonucleic acid)"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Illness",
+        "isNode": true,
+        "key": "illness",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Cancer",
+        "isNode": true,
+        "key": "cancer",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Drug",
+        "isNode": true,
+        "key": "drug",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "External References",
+        "isNode": true,
+        "key": "externalReferences",
+        "possibleValues": [
+            "uniprotac",
+            "ensembl",
+            "hgnc",
+            "miRBase"
+        ],
+        "searchable": true
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Interaction Detection Methods",
+        "isNode": false,
+        "key": "interactionDetectionMethods",
+        "possibleValues": [
+            "MI:7777(intdetmethod7)",
+            "MI:3333(intdetmethod3)",
+            "MI:4444(intdetmethod4)",
+            "MI:5555(intdetmethod5)",
+            "MI:1111(intdetmethod1)",
+            "MI:2222(intdetmethod2)",
+            "MI:8888(intdetmethod8)",
+            "MI:6666(intdetmethod6)"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "number",
+        "displayedName": "Publications",
+        "isNode": false,
+        "key": "publications",
+        "possibleValues": [],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Source Databases",
+        "isNode": false,
+        "key": "sourceDatabases",
+        "possibleValues": [
+            "ACSN",
+            "InnateDB",
+            "Reactome",
+            "Signor",
+            "Manual curation",
+            "PSP",
+            "ELM",
+            "PhosphoSite",
+            "BioGRID",
+            "ComPPI",
+            "HPRD",
+            "IntAct",
+            "OmniPath",
+            "miR2Disease",
+            "miRDeathDB",
+            "miRecords",
+            "starBase",
+            "TarBase",
+            "lncRInter",
+            "miRSponge",
+            "NPInter"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "number",
+        "displayedName": "Layer",
+        "isNode": false,
+        "key": "layer",
+        "possibleValues": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "string",
+        "displayedName": "Interaction Type",
+        "isNode": false,
+        "key": "interactionType",
+        "possibleValues": [
+            "MI:2247(transcriptional regulation)",
+            "MI:0623(inhibition)",
+            "MI:0190(interaction type)"
+        ],
+        "searchable": false
+    },
+    {
+        "dataType": "number",
+        "displayedName": "Confidence Score",
+        "isNode": false,
+        "key": "confidenceScore",
+        "possibleValues": [],
+        "searchable": false
+    }
+]

@@ -1,0 +1,3596 @@
+[
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": false,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot24",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename24",
+        "sourceFullName": "proteinname24",
+        "target": "uniprot30",
+        "targetDisplayedName": "genename30",
+        "targetFullName": "proteinname30"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot1",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename1",
+        "sourceFullName": "proteinname1",
+        "target": "uniprot2",
+        "targetDisplayedName": "genename2",
+        "targetFullName": "proteinname2"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/2",
+                "value": "2"
+            }
+        ],
+        "source": "uniprot1",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename1",
+        "sourceFullName": "proteinname1",
+        "target": "uniprot3",
+        "targetDisplayedName": "genename3",
+        "targetFullName": "proteinname3"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/3",
+                "value": "3"
+            }
+        ],
+        "source": "uniprot1",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename1",
+        "sourceFullName": "proteinname1",
+        "target": "uniprot5",
+        "targetDisplayedName": "genename5",
+        "targetFullName": "proteinname5"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2222",
+                "value": "MI:2222(intdetmethod2)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/4",
+                "value": "4"
+            }
+        ],
+        "source": "uniprot2",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename2",
+        "sourceFullName": "proteinname2",
+        "target": "uniprot3",
+        "targetDisplayedName": "genename3",
+        "targetFullName": "proteinname3"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2222",
+                "value": "MI:2222(intdetmethod2)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/5",
+                "value": "5"
+            }
+        ],
+        "source": "uniprot2",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename2",
+        "sourceFullName": "proteinname2",
+        "target": "uniprot4",
+        "targetDisplayedName": "genename4",
+        "targetFullName": "proteinname4"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_3333",
+                "value": "MI:3333(intdetmethod3)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/6",
+                "value": "6"
+            }
+        ],
+        "source": "uniprot4",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename4",
+        "sourceFullName": "proteinname4",
+        "target": "uniprot3",
+        "targetDisplayedName": "genename3",
+        "targetFullName": "proteinname3"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_3333",
+                "value": "MI:3333(intdetmethod3)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/7",
+                "value": "7"
+            }
+        ],
+        "source": "uniprot4",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename4",
+        "sourceFullName": "proteinname4",
+        "target": "uniprot5",
+        "targetDisplayedName": "genename5",
+        "targetFullName": "proteinname5"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_3333",
+                "value": "MI:3333(intdetmethod3)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot4",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename4",
+        "sourceFullName": "proteinname4",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/9",
+                "value": "9"
+            }
+        ],
+        "source": "uniprot5",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename5",
+        "sourceFullName": "proteinname5",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            },
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/10",
+                "value": "10"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/11",
+                "value": "11"
+            }
+        ],
+        "source": "uniprot5",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            },
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename5",
+        "sourceFullName": "proteinname5",
+        "target": "uniprot2",
+        "targetDisplayedName": "genename2",
+        "targetFullName": "proteinname2"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/11",
+                "value": "11"
+            }
+        ],
+        "source": "uniprot6",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename6",
+        "sourceFullName": "proteinname6",
+        "target": "uniprot8",
+        "targetDisplayedName": "genename8",
+        "targetFullName": "proteinname8"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/12",
+                "value": "12"
+            }
+        ],
+        "source": "uniprot6",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename6",
+        "sourceFullName": "proteinname6",
+        "target": "uniprot9",
+        "targetDisplayedName": "genename9",
+        "targetFullName": "proteinname9"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/13",
+                "value": "13"
+            }
+        ],
+        "source": "uniprot6",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename6",
+        "sourceFullName": "proteinname6",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2222",
+                "value": "MI:2222(intdetmethod2)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/14",
+                "value": "14"
+            }
+        ],
+        "source": "uniprot7",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename7",
+        "sourceFullName": "proteinname7",
+        "target": "uniprot10",
+        "targetDisplayedName": "genename10",
+        "targetFullName": "proteinname10"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2222",
+                "value": "MI:2222(intdetmethod2)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/15",
+                "value": "15"
+            }
+        ],
+        "source": "uniprot7",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename7",
+        "sourceFullName": "proteinname7",
+        "target": "uniprot8",
+        "targetDisplayedName": "genename8",
+        "targetFullName": "proteinname8"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_3333",
+                "value": "MI:3333(intdetmethod3)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/16",
+                "value": "16"
+            }
+        ],
+        "source": "uniprot8",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename8",
+        "sourceFullName": "proteinname8",
+        "target": "uniprot10",
+        "targetDisplayedName": "genename10",
+        "targetFullName": "proteinname10"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_3333",
+                "value": "MI:3333(intdetmethod3)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/17",
+                "value": "17"
+            }
+        ],
+        "source": "uniprot8",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename8",
+        "sourceFullName": "proteinname8",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            },
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/11",
+                "value": "11"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/18",
+                "value": "18"
+            }
+        ],
+        "source": "uniprot9",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            },
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename9",
+        "sourceFullName": "proteinname9",
+        "target": "uniprot10",
+        "targetDisplayedName": "genename10",
+        "targetFullName": "proteinname10"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/19",
+                "value": "19"
+            }
+        ],
+        "source": "uniprot9",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename9",
+        "sourceFullName": "proteinname9",
+        "target": "uniprot7",
+        "targetDisplayedName": "genename7",
+        "targetFullName": "proteinname7"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_5555",
+                "value": "MI:5555(intdetmethod5)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/20",
+                "value": "20"
+            }
+        ],
+        "source": "uniprot10",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ACSN"
+            }
+        ],
+        "sourceDisplayedName": "genename10",
+        "sourceFullName": "proteinname10",
+        "target": "uniprot6",
+        "targetDisplayedName": "genename6",
+        "targetFullName": "proteinname6"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_7777",
+                "value": "MI:7777(intdetmethod7)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot24",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename24",
+        "sourceFullName": "proteinname24",
+        "target": "uniprot30",
+        "targetDisplayedName": "genename30",
+        "targetFullName": "proteinname30"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot30",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename30",
+        "sourceFullName": "proteinname30",
+        "target": "uniprot24",
+        "targetDisplayedName": "genename24",
+        "targetFullName": "proteinname24"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot25",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename25",
+        "sourceFullName": "proteinname25",
+        "target": "uniprot30",
+        "targetDisplayedName": "genename30",
+        "targetFullName": "proteinname30"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot25",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename25",
+        "sourceFullName": "proteinname25",
+        "target": "uniprot29",
+        "targetDisplayedName": "genename29",
+        "targetFullName": "proteinname29"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot27",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename27",
+        "sourceFullName": "proteinname27",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 0.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/1",
+                "value": "1"
+            }
+        ],
+        "source": "uniprot29",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "SLKv2.0"
+            }
+        ],
+        "sourceDisplayedName": "genename29",
+        "sourceFullName": "proteinname29",
+        "target": "uniprot17",
+        "targetDisplayedName": "genename17",
+        "targetFullName": "proteinname17"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": false,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 1.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/21",
+                "value": "21"
+            }
+        ],
+        "source": "uniprot12",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSP"
+            }
+        ],
+        "sourceDisplayedName": "genename12",
+        "sourceFullName": "proteinname12",
+        "target": "uniprot2",
+        "targetDisplayedName": "genename2",
+        "targetFullName": "proteinname2"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": false,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 1.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/21",
+                "value": "21"
+            }
+        ],
+        "source": "uniprot12",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSP"
+            }
+        ],
+        "sourceDisplayedName": "genename12",
+        "sourceFullName": "proteinname12",
+        "target": "uniprot8",
+        "targetDisplayedName": "genename8",
+        "targetFullName": "proteinname8"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": false,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 1.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/21",
+                "value": "21"
+            }
+        ],
+        "source": "uniprot13",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSP"
+            }
+        ],
+        "sourceDisplayedName": "genename13",
+        "sourceFullName": "proteinname13",
+        "target": "uniprot4",
+        "targetDisplayedName": "genename4",
+        "targetFullName": "proteinname4"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": false,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 1.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/21",
+                "value": "21"
+            }
+        ],
+        "source": "uniprot13",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSP"
+            }
+        ],
+        "sourceDisplayedName": "genename13",
+        "sourceFullName": "proteinname13",
+        "target": "uniprot9",
+        "targetDisplayedName": "genename9",
+        "targetFullName": "proteinname9"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": false,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 1.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/21",
+                "value": "21"
+            }
+        ],
+        "source": "uniprot13",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSP"
+            }
+        ],
+        "sourceDisplayedName": "genename13",
+        "sourceFullName": "proteinname13",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_7777",
+                "value": "MI:7777(intdetmethod7)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 2.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/22",
+                "value": "22"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/23",
+                "value": "23"
+            }
+        ],
+        "source": "uniprot14",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PhosphoSite"
+            }
+        ],
+        "sourceDisplayedName": "genename14",
+        "sourceFullName": "proteinname14",
+        "target": "uniprot1",
+        "targetDisplayedName": "genename1",
+        "targetFullName": "proteinname1"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_7777",
+                "value": "MI:7777(intdetmethod7)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 2.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/22",
+                "value": "22"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/23",
+                "value": "23"
+            }
+        ],
+        "source": "uniprot14",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PhosphoSite"
+            }
+        ],
+        "sourceDisplayedName": "genename14",
+        "sourceFullName": "proteinname14",
+        "target": "uniprot7",
+        "targetDisplayedName": "genename7",
+        "targetFullName": "proteinname7"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_7777",
+                "value": "MI:7777(intdetmethod7)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 2.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/22",
+                "value": "22"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/23",
+                "value": "23"
+            }
+        ],
+        "source": "uniprot14",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PhosphoSite"
+            }
+        ],
+        "sourceDisplayedName": "genename14",
+        "sourceFullName": "proteinname14",
+        "target": "uniprot3",
+        "targetDisplayedName": "genename3",
+        "targetFullName": "proteinname3"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_7777",
+                "value": "MI:7777(intdetmethod7)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 2.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/22",
+                "value": "22"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/23",
+                "value": "23"
+            }
+        ],
+        "source": "uniprot15",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PhosphoSite"
+            }
+        ],
+        "sourceDisplayedName": "genename15",
+        "sourceFullName": "proteinname15",
+        "target": "uniprot5",
+        "targetDisplayedName": "genename5",
+        "targetFullName": "proteinname5"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_7777",
+                "value": "MI:7777(intdetmethod7)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 2.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/22",
+                "value": "22"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/23",
+                "value": "23"
+            }
+        ],
+        "source": "uniprot15",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PhosphoSite"
+            }
+        ],
+        "sourceDisplayedName": "genename15",
+        "sourceFullName": "proteinname15",
+        "target": "uniprot10",
+        "targetDisplayedName": "genename10",
+        "targetFullName": "proteinname10"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_5555",
+                "value": "MI:5555(intdetmethod5)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 3.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/5",
+                "value": "5"
+            }
+        ],
+        "source": "uniprot16",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ComPPI"
+            }
+        ],
+        "sourceDisplayedName": "genename16",
+        "sourceFullName": "proteinname16",
+        "target": "uniprot17",
+        "targetDisplayedName": "genename17",
+        "targetFullName": "proteinname17"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 3.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/9",
+                "value": "9"
+            }
+        ],
+        "source": "uniprot16",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ComPPI"
+            }
+        ],
+        "sourceDisplayedName": "genename16",
+        "sourceFullName": "proteinname16",
+        "target": "uniprot6",
+        "targetDisplayedName": "genename6",
+        "targetFullName": "proteinname6"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 3.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/9",
+                "value": "9"
+            }
+        ],
+        "source": "uniprot17",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ComPPI"
+            }
+        ],
+        "sourceDisplayedName": "genename17",
+        "sourceFullName": "proteinname17",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_1111",
+                "value": "MI:1111(intdetmethod1)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0190",
+                "value": "MI:0190(interaction type)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 3.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/9",
+                "value": "9"
+            }
+        ],
+        "source": "uniprot17",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "ComPPI"
+            }
+        ],
+        "sourceDisplayedName": "genename17",
+        "sourceFullName": "proteinname17",
+        "target": "uniprot8",
+        "targetDisplayedName": "genename8",
+        "targetFullName": "proteinname8"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/24",
+                "value": "24"
+            }
+        ],
+        "source": "uniprot18",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename18",
+        "sourceFullName": "proteinname18",
+        "target": "uniprot4",
+        "targetDisplayedName": "genename4",
+        "targetFullName": "proteinname4"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/24",
+                "value": "24"
+            }
+        ],
+        "source": "uniprot18",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename18",
+        "sourceFullName": "proteinname18",
+        "target": "uniprot7",
+        "targetDisplayedName": "genename7",
+        "targetFullName": "proteinname7"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/24",
+                "value": "24"
+            }
+        ],
+        "source": "uniprot18",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename18",
+        "sourceFullName": "proteinname18",
+        "target": "uniprot14",
+        "targetDisplayedName": "genename14",
+        "targetFullName": "proteinname14"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/24",
+                "value": "24"
+            }
+        ],
+        "source": "uniprot18",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename18",
+        "sourceFullName": "proteinname18",
+        "target": "uniprot16",
+        "targetDisplayedName": "genename16",
+        "targetFullName": "proteinname16"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot19",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename19",
+        "sourceFullName": "proteinname19",
+        "target": "uniprot11",
+        "targetDisplayedName": "genename11",
+        "targetFullName": "proteinname11"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot19",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename19",
+        "sourceFullName": "proteinname19",
+        "target": "uniprot10",
+        "targetDisplayedName": "genename10",
+        "targetFullName": "proteinname10"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot19",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename19",
+        "sourceFullName": "proteinname19",
+        "target": "uniprot15",
+        "targetDisplayedName": "genename15",
+        "targetFullName": "proteinname15"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot19",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename19",
+        "sourceFullName": "proteinname19",
+        "target": "uniprot13",
+        "targetDisplayedName": "genename13",
+        "targetFullName": "proteinname13"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot19",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename19",
+        "sourceFullName": "proteinname19",
+        "target": "uniprot17",
+        "targetDisplayedName": "genename17",
+        "targetFullName": "proteinname17"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot19",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename19",
+        "sourceFullName": "proteinname19",
+        "target": "uniprot29",
+        "targetDisplayedName": "genename29",
+        "targetFullName": "proteinname29"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_4444",
+                "value": "MI:4444(intdetmethod4)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 5.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot18",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "miRecords"
+            }
+        ],
+        "sourceDisplayedName": "genename18",
+        "sourceFullName": "proteinname18",
+        "target": "uniprot25",
+        "targetDisplayedName": "genename25",
+        "targetFullName": "proteinname25"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot20",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename20",
+        "sourceFullName": "proteinname20",
+        "target": "uniprot2",
+        "targetDisplayedName": "genename2",
+        "targetFullName": "proteinname2"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot20",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename20",
+        "sourceFullName": "proteinname20",
+        "target": "uniprot1",
+        "targetDisplayedName": "genename1",
+        "targetFullName": "proteinname1"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot20",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename20",
+        "sourceFullName": "proteinname20",
+        "target": "uniprot9",
+        "targetDisplayedName": "genename9",
+        "targetFullName": "proteinname9"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot20",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename20",
+        "sourceFullName": "proteinname20",
+        "target": "uniprot12",
+        "targetDisplayedName": "genename12",
+        "targetFullName": "proteinname12"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot20",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename20",
+        "sourceFullName": "proteinname20",
+        "target": "uniprot16",
+        "targetDisplayedName": "genename16",
+        "targetFullName": "proteinname16"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot20",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename20",
+        "sourceFullName": "proteinname20",
+        "target": "uniprot18",
+        "targetDisplayedName": "genename18",
+        "targetFullName": "proteinname18"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot21",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename21",
+        "sourceFullName": "proteinname21",
+        "target": "uniprot5",
+        "targetDisplayedName": "genename5",
+        "targetFullName": "proteinname5"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot21",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename21",
+        "sourceFullName": "proteinname21",
+        "target": "uniprot15",
+        "targetDisplayedName": "genename15",
+        "targetFullName": "proteinname15"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot21",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename21",
+        "sourceFullName": "proteinname21",
+        "target": "uniprot17",
+        "targetDisplayedName": "genename17",
+        "targetFullName": "proteinname17"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_6666",
+                "value": "MI:6666(intdetmethod6)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/26",
+                "value": "26"
+            },
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/8",
+                "value": "8"
+            }
+        ],
+        "source": "uniprot21",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename21",
+        "sourceFullName": "proteinname21",
+        "target": "uniprot19",
+        "targetDisplayedName": "genename19",
+        "targetFullName": "proteinname19"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2222",
+                "value": "MI:2222(intdetmethod2)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot20",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename20",
+        "sourceFullName": "proteinname20",
+        "target": "uniprot24",
+        "targetDisplayedName": "genename24",
+        "targetFullName": "proteinname24"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2222",
+                "value": "MI:2222(intdetmethod2)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot21",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename21",
+        "sourceFullName": "proteinname21",
+        "target": "uniprot30",
+        "targetDisplayedName": "genename30",
+        "targetFullName": "proteinname30"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2222",
+                "value": "MI:2222(intdetmethod2)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_2247",
+                "value": "MI:2247(transcriptional regulation)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 6.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/25",
+                "value": "25"
+            }
+        ],
+        "source": "uniprot21",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "PSSMprediction"
+            }
+        ],
+        "sourceDisplayedName": "genename21",
+        "sourceFullName": "proteinname21",
+        "target": "uniprot24",
+        "targetDisplayedName": "genename24",
+        "targetFullName": "proteinname24"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_8888",
+                "value": "MI:8888(intdetmethod8)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 7.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/27",
+                "value": "27"
+            }
+        ],
+        "source": "uniprot22",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "NPInter"
+            }
+        ],
+        "sourceDisplayedName": "genename22",
+        "sourceFullName": "proteinname22",
+        "target": "uniprot18",
+        "targetDisplayedName": "genename18",
+        "targetFullName": "proteinname18"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_8888",
+                "value": "MI:8888(intdetmethod8)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 7.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/27",
+                "value": "27"
+            }
+        ],
+        "source": "uniprot22",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "NPInter"
+            }
+        ],
+        "sourceDisplayedName": "genename22",
+        "sourceFullName": "proteinname22",
+        "target": "uniprot19",
+        "targetDisplayedName": "genename19",
+        "targetFullName": "proteinname19"
+    },
+    {
+        "confidenceScore": [],
+        "interactionDetectionMethods": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_8888",
+                "value": "MI:8888(intdetmethod8)"
+            }
+        ],
+        "interactionType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0623",
+                "value": "MI:0623(inhibition)"
+            }
+        ],
+        "isDirect": true,
+        "isDirected": true,
+        "layer": [
+            {
+                "db": "",
+                "searchable": true,
+                "url": "",
+                "value": 7.0
+            }
+        ],
+        "publications": [
+            {
+                "db": "pubmed",
+                "searchable": false,
+                "url": "www.ncbi.nlm.nih.gov/pubmed/27",
+                "value": "27"
+            }
+        ],
+        "source": "uniprot23",
+        "sourceDatabases": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "NPInter"
+            }
+        ],
+        "sourceDisplayedName": "genename23",
+        "sourceFullName": "proteinname23",
+        "target": "uniprot19",
+        "targetDisplayedName": "genename19",
+        "targetFullName": "proteinname19"
+    }
+]

@@ -1,0 +1,1083 @@
+[
+    {
+        "displayedName": "genename1",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot1",
+                "value": "uniprot1"
+            }
+        ],
+        "fullName": "proteinname1",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot1",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "B-cell receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [
+            {
+                "db": "Uber Anatomy Ontology",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?obo_id=UBERON:0002101",
+                "value": "UBERON:0002101"
+            }
+        ],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename10",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot10",
+                "value": "uniprot10"
+            }
+        ],
+        "fullName": "proteinname10",
+        "majorCellularLocalization": [
+            {
+                "db": "ComPPI",
+                "searchable": true,
+                "url": "http://comppi.linkgroup.hu/home",
+                "value": "GO:0005618(cell wall)"
+            },
+            {
+                "db": "ComPPI",
+                "searchable": true,
+                "url": "http://comppi.linkgroup.hu/home",
+                "value": "GO:0044099(polar tube)"
+            }
+        ],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot10",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Toll-like receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename11",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot11",
+                "value": "uniprot11"
+            }
+        ],
+        "fullName": "proteinname11",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot11",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "B-cell receptor"
+            },
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Toll-like receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename12",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot12",
+                "value": "uniprot12"
+            }
+        ],
+        "fullName": "proteinname12",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot12",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename13",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot13",
+                "value": "uniprot13"
+            }
+        ],
+        "fullName": "proteinname13",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot13",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename14",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot14",
+                "value": "uniprot14"
+            }
+        ],
+        "fullName": "proteinname14",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot14",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename15",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot15",
+                "value": "uniprot15"
+            }
+        ],
+        "fullName": "proteinname15",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot15",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename16",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot16",
+                "value": "uniprot16"
+            }
+        ],
+        "fullName": "proteinname16",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot16",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename17",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot17",
+                "value": "uniprot17"
+            }
+        ],
+        "fullName": "proteinname17",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot17",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename18",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot18",
+                "value": "uniprot18"
+            }
+        ],
+        "fullName": "proteinname18",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot18",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename19",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot19",
+                "value": "uniprot19"
+            }
+        ],
+        "fullName": "proteinname19",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot19",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename2",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot2",
+                "value": "uniprot2"
+            }
+        ],
+        "fullName": "proteinname2",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot2",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "B-cell receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Co-factor"
+            },
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Ligand"
+            },
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Receptor"
+            }
+        ]
+    },
+    {
+        "displayedName": "genename20",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot20",
+                "value": "uniprot20"
+            }
+        ],
+        "fullName": "proteinname20",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot20",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename21",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot21",
+                "value": "uniprot21"
+            }
+        ],
+        "fullName": "proteinname21",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot21",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename22",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot22",
+                "value": "uniprot22"
+            }
+        ],
+        "fullName": "proteinname22",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot22",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename23",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot23",
+                "value": "uniprot23"
+            }
+        ],
+        "fullName": "proteinname23",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot23",
+        "pathways": [],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename24",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot24",
+                "value": "uniprot24"
+            }
+        ],
+        "fullName": "proteinname24",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot24",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Innate immune pathways"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename25",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot25",
+                "value": "uniprot25"
+            }
+        ],
+        "fullName": "proteinname25",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot25",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Innate immune pathways"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename27",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot27",
+                "value": "uniprot27"
+            }
+        ],
+        "fullName": "proteinname27",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot27",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Innate immune pathways"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename29",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot29",
+                "value": "uniprot29"
+            }
+        ],
+        "fullName": "proteinname29",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot29",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Innate immune pathways"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename3",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot3",
+                "value": "uniprot3"
+            }
+        ],
+        "fullName": "proteinname3",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot3",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "B-cell receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Scaffold"
+            }
+        ]
+    },
+    {
+        "displayedName": "genename30",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot30",
+                "value": "uniprot30"
+            }
+        ],
+        "fullName": "proteinname30",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot30",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Innate immune pathways"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename4",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot4",
+                "value": "uniprot4"
+            }
+        ],
+        "fullName": "proteinname4",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot4",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "B-cell receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Ligand"
+            }
+        ]
+    },
+    {
+        "displayedName": "genename5",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot5",
+                "value": "uniprot5"
+            }
+        ],
+        "fullName": "proteinname5",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [
+            {
+                "db": "ComPPI",
+                "searchable": true,
+                "url": "http://comppi.linkgroup.hu/home",
+                "value": "GO:0005618(cell wall)"
+            }
+        ],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot5",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "B-cell receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [
+            {
+                "db": "Uber Anatomy Ontology",
+                "searchable": false,
+                "url": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?obo_id=UBERON:0002101",
+                "value": "UBERON:0002101"
+            }
+        ],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename6",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot6",
+                "value": "uniprot6"
+            }
+        ],
+        "fullName": "proteinname6",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot6",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Toll-like receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename7",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot7",
+                "value": "uniprot7"
+            }
+        ],
+        "fullName": "proteinname7",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot7",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Toll-like receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename8",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot8",
+                "value": "uniprot8"
+            }
+        ],
+        "fullName": "proteinname8",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot8",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Toll-like receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    },
+    {
+        "displayedName": "genename9",
+        "externalReferences": [
+            {
+                "db": "Uniprot",
+                "searchable": true,
+                "url": "www.uniprot.org/uniprot/uniprot9",
+                "value": "uniprot9"
+            }
+        ],
+        "fullName": "proteinname9",
+        "majorCellularLocalization": [],
+        "minorCellularLocalization": [],
+        "moleculeType": [
+            {
+                "db": "Molecular Interactions Controlled Vocabulary",
+                "searchable": false,
+                "url": "www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0326",
+                "value": "MI:0326(protein)"
+            }
+        ],
+        "name": "uniprot9",
+        "pathways": [
+            {
+                "db": "",
+                "searchable": false,
+                "url": "",
+                "value": "Toll-like receptor"
+            }
+        ],
+        "taxon": {
+            "commonName": "human",
+            "id": 9606.0,
+            "name": "Homo sapiens",
+            "shortName": "H. sapiens"
+        },
+        "tissues": [],
+        "topologicalFeatures": []
+    }
+]

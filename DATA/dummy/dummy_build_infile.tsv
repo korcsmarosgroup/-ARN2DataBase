@@ -1,0 +1,71 @@
+interactor_a_node_name	interactor_b_node_name	interaction_detection_method	interaction_identifiers	publication_ids	source_db	interaction_types	layer
+uniprot1	uniprot2	intdetmethod1	directed	PMID1	L0sourceDB	direct	0
+uniprot1	uniprot3	intdetmethod1	directed	PMID2	L0sourceDB	direct	0
+uniprot1	uniprot5	intdetmethod1	directed	PMID3	L0sourceDB	direct	0
+uniprot2	uniprot3	intdetmethod2	directed	PMID4	L0sourceDB	direct	0
+uniprot2	uniprot4	intdetmethod2	directed	PMID5	L0sourceDB	direct	0
+uniprot4	uniprot3	intdetmethod3	directed	PMID6	L0sourceDB	direct	0
+uniprot4	uniprot5	intdetmethod3	directed	PMID7	L0sourceDB	direct	0
+uniprot4	uniprot11	intdetmethod3	directed	PMID8	L0sourceDB	direct	0
+uniprot5	uniprot11	intdetmethod4	directed	PMID9	L0sourceDB	direct	0
+uniprot5	uniprot2	intdetmethod4|intdetmethod6	directed	PMID10|PMID11	L0sourceDB|L0sourceDB2	direct	0
+uniprot6	uniprot8	intdetmethod1	directed	PMID11	L0sourceDB	direct	0
+uniprot6	uniprot9	intdetmethod1	directed	PMID12	L0sourceDB	direct	0
+uniprot6	uniprot11	intdetmethod1	directed	PMID13	L0sourceDB	direct	0
+uniprot7	uniprot10	intdetmethod2	directed	PMID14	L0sourceDB	direct	0
+uniprot7	uniprot8	intdetmethod2	directed	PMID15	L0sourceDB	direct	0
+uniprot8	uniprot10	intdetmethod3	directed	PMID16	L0sourceDB	direct	0
+uniprot8	uniprot11	intdetmethod3	directed	PMID17	L0sourceDB	direct	0
+uniprot9	uniprot10	intdetmethod4|intdetmethod6	directed	PMID18|PMID11	L0sourceDB|L0sourceDB2	direct	0
+uniprot9	uniprot7	intdetmethod4	directed	PMID19	L0sourceDB	direct	0
+uniprot10	uniprot6	intdetmethod5	directed	PMID20	L0sourceDB	direct	0
+uniprot12	uniprot2	intdetmethod6	not directed	PMID21	L1sourceDB	direct	1
+uniprot12	uniprot8	intdetmethod6	not directed	PMID21	L1sourceDB	direct	1
+uniprot13	uniprot4	intdetmethod6	not directed	PMID21	L1sourceDB	direct	1
+uniprot13	uniprot9	intdetmethod6	not directed	PMID21	L1sourceDB	direct	1
+uniprot13	uniprot11	intdetmethod6	not directed	PMID21	L1sourceDB	direct	1
+uniprot14	uniprot1	intdetmethod7	directed	PMID22|PMID23	L2sourceDB	direct	2
+uniprot14	uniprot7	intdetmethod7	directed	PMID22|PMID23	L2sourceDB	direct	2
+uniprot14	uniprot3	intdetmethod7	directed	PMID22|PMID23	L2sourceDB	direct	2
+uniprot15	uniprot5	intdetmethod7	directed	PMID22|PMID23	L2sourceDB	direct	2
+uniprot15	uniprot10	intdetmethod7	directed	PMID22|PMID23	L2sourceDB	direct	2
+uniprot16	uniprot17	intdetmethod5	directed	PMID5	L3sourceDB	direct	3
+uniprot16	uniprot6	intdetmethod1	directed	PMID9	L3sourceDB	direct	3
+uniprot17	uniprot11	intdetmethod1	directed	PMID9	L3sourceDB	direct	3
+uniprot17	uniprot8	intdetmethod1	directed	PMID9	L3sourceDB	direct	3
+uniprot18	uniprot4	intdetmethod6	directed|MI:0623(inhibition)	PMID24	L5sourceDB	direct	5
+uniprot18	uniprot7	intdetmethod6	directed|MI:0623(inhibition)	PMID24	L5sourceDB	direct	5
+uniprot18	uniprot14	intdetmethod6	directed|MI:0623(inhibition)	PMID24	L5sourceDB	direct	5
+uniprot18	uniprot16	intdetmethod6	directed|MI:0623(inhibition)	PMID24	L5sourceDB	direct	5
+uniprot19	uniprot11	intdetmethod6	directed|MI:0623(inhibition)	PMID25	L5sourceDB	direct	5
+uniprot19	uniprot10	intdetmethod6	directed|MI:0623(inhibition)	PMID25	L5sourceDB	direct	5
+uniprot19	uniprot15	intdetmethod6	directed|MI:0623(inhibition)	PMID25	L5sourceDB	direct	5
+uniprot19	uniprot13	intdetmethod6	directed|MI:0623(inhibition)	PMID25	L5sourceDB	direct	5
+uniprot19	uniprot17	intdetmethod6	directed|MI:0623(inhibition)	PMID25	L5sourceDB	direct	5
+uniprot20	uniprot2	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot20	uniprot1	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot20	uniprot9	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot20	uniprot12	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot20	uniprot16	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot20	uniprot18	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot21	uniprot5	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot21	uniprot15	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot21	uniprot17	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot21	uniprot19	intdetmethod6	directed|MI:2247(transcriptional regulation)	PMID26|PMID8	L6sourceDB	direct	6
+uniprot22	uniprot18	intdetmethod8	directed|MI:0623(inhibition)	PMID27	L7sourceDB	direct	7
+uniprot22	uniprot19	intdetmethod8	directed|MI:0623(inhibition)	PMID27	L7sourceDB	direct	7
+uniprot23	uniprot19	intdetmethod8	directed|MI:0623(inhibition)	PMID27	L7sourceDB	direct	7
+uniprot24	uniprot30	intdetmethod7|intdetmethod4	is_directed:directed	PMID1	L0sourceDB2	isdirect:direct	0
+uniprot25	uniprot30	intdetmethod4	is_directed:directed	PMID1	L0sourceDB2	isdirect:direct	0
+uniprot27	uniprot11	intdetmethod4	is_directed:directed	PMID1	L0sourceDB2	isdirect:direct	0
+uniprot29	uniprot17	intdetmethod4	is_directed:directed	PMID1	L0sourceDB2	isdirect:direct	0
+uniprot18	uniprot25	intdetmethod4	is_directed:directed|MI:0623(inhibition)	PMID8	L5sourceDB	isdirect:direct	5
+uniprot19	uniprot29	intdetmethod4	is_directed:directed|MI:0623(inhibition)	PMID8	L5sourceDB	isdirect:direct	5
+uniprot20	uniprot24	intdetmethod2	is_directed:directed|MI:2247(transcriptional regulation)	PMID25	L6sourceDB	isdirect:direct	6
+uniprot21	uniprot30	intdetmethod2	is_directed:directed|MI:2247(transcriptional regulation)	PMID25	L6sourceDB	isdirect:direct	6
+uniprot21	uniprot24	intdetmethod2	is_directed:directed|MI:2247(transcriptional regulation)	PMID25	L6sourceDB	isdirect:direct	6
+
+
+
+
+

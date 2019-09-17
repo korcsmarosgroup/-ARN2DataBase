@@ -1,0 +1,24 @@
+name 	alt_accession	tax_id	pathways	aliases	topology
+uniprot1	gene:genename1|uniprot:altuniprot1|L0sourceDB:L0sourceDBid1	9606	pathway1	
+uniprot2	gene:genename2|uniprot:altuniprot2|L0sourceDB:L0sourceDBid2	9606	pathway1	
+uniprot3	gene:genename3|uniprot:altuniprot3|L0sourceDB:L0sourceDBid3	9606	pathway1	
+uniprot4	gene:genename4|uniprot:altuniprot4|L0sourceDB:L0sourceDBid4	9606	pathway1	
+uniprot5	gene:genename5|uniprot:altuniprot5|L0sourceDB:L0sourceDBid5	9606	pathway1	
+uniprot6	gene:genename6|uniprot:altuniprot6|L0sourceDB:L0sourceDBid6	9606	pathway2	
+uniprot7	gene:genename7|uniprot:altuniprot7|L0sourceDB:L0sourceDBid7	9606	pathway2	
+uniprot8	gene:genename8|uniprot:altuniprot8|L0sourceDB:L0sourceDBid8	9606	pathway2	
+uniprot9	gene:genename9|uniprot:altuniprot9|L0sourceDB:L0sourceDBid9	9606	pathway2	
+uniprot10	gene:genename10|uniprot:altuniprot10|L0sourceDB:L0sourceDBid10	9606	pathway2	
+uniprot11	gene:genename11|uniprot:altuniprot11|L0sourceDB:L0sourceDBid11	9606	pathway1|pathway2	
+uniprot12	gene:genename12|uniprot:altuniprot12|L1sourceDB:L1sourceDBid12	9606		
+uniprot13	gene:genename13|uniprot:altuniprot13|L1sourceDB:L1sourceDBid13	9606		
+uniprot14	gene:genename14|uniprot:altuniprot14|L2sourceDB:L2sourceDBid14	9606		
+uniprot15	gene:genename15|uniprot:altuniprot15|L2sourceDB:L2sourceDBid15	9606		
+uniprot16	gene:genename16|uniprot:altuniprot16|L3sourceDB:L3sourceDBid16	9606		
+uniprot17	gene:genename17|uniprot:altuniprot17|L3sourceDB:L3sourceDBid17	9606		
+uniprot18	gene:genename18|uniprot:altuniprot18|L5sourceDB:L5sourceDBid18	9606		
+uniprot19	gene:genename19|uniprot:altuniprot19|L5sourceDB:L5sourceDBid19	9606		
+uniprot20	gene:genename20|uniprot:altuniprot20|L6sourceDB:L6sourceDBid20	9606		
+uniprot21	gene:genename21|uniprot:altuniprot21|L6sourceDB:L6sourceDBid21	9606		
+uniprot22	gene:genename22|uniprot:altuniprot22|L7sourceDB:L7sourceDBid22	9606		
+uniprot23	gene:genename23|uniprot:altuniprot23|L7sourceDB:L7sourceDBid23	9606		

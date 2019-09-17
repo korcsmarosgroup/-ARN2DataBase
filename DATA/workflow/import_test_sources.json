@@ -1,0 +1,4 @@
+{
+  "layer0": ["innatedb", "reactome"],
+  "layer2": ["PTMCode2"]
+}

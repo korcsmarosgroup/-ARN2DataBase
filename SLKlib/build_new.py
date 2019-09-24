@@ -44,7 +44,7 @@ def build_base(log, path):
     # Creating output table for EDGES
     # path = '../DATA/workflow/merger.db'
 
-    conn = sqlite3.connect('ARN_baselayers.db')
+    conn = sqlite3.connect('ARN_layers.db')
     # log.debug("Started connection to '%s'" % conn)
     with conn:
         c = conn.cursor()
@@ -143,55 +143,41 @@ def build_whole(log, path):
     # Creating output table for EDGES
     path = '../DATA/workflow/merger.db'
 
-    conn = sqlite3.connect('ARN_fulllayers.db')
+    conn = sqlite3.connect('ARN_baselayers.db')
+    conn1 = sqlite3.connect(path)
+    conn1.row_factory = sqlite3.Row
     # log.debug("Started connection to '%s'" % conn)
+    counter = 0
+    nodes_added_in_current_layer = set()
+    nodes_added_in_previous_layers = set()
+    layer_counter = {0: 0, 1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
+    layer_remaining_counter = {1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
+    # Starting from layer 2 (PTM)
+    current_layer = 2
+    dirreg_dict = {}
     with conn:
         c = conn.cursor()
-        for layer in [0, 1, 2, 3, 5, 6, 7]:
-            c.execute("DROP TABLE IF EXISTS layer%d" % layer)
-            c.execute("DROP TABLE IF EXISTS node")
-
-            c.execute('''
-                   CREATE TABLE layer%d (
-                   `interactor_a_node_name`	TEXT NOT NULL,
-                   `interactor_b_node_name`	TEXT NOT NULL,
-                   `interaction_detection_method`	TEXT,
-                   `first_author`	TEXT,
-                   `publication_ids`	TEXT NOT NULL,
-                   `interaction_types`	TEXT,
-                   `source_db`	TEXT NOT NULL,
-                   `interaction_identifiers`	TEXT,
-                   `confidence_scores`	TEXT,
-                   `layer` INTEGER NOT NULL)
-                   ''' % layer)
-
-            c.execute('''
-                   CREATE TABLE node (
-               	name	TEXT NOT NULL,
-               	alt_accession	TEXT,
-               	tax_id	INTEGER NOT NULL,
-               	pathways	TEXT,
-               	aliases TEXT,
-               	topology TEXT )
-                   ''')
-
-        conn1 = sqlite3.connect(path)
-        conn1.row_factory = sqlite3.Row
-        c1 = conn1.cursor()
-        c1.execute('SELECT * FROM edge ORDER BY layer, id')
-        counter = 0
-        nodes_added_in_current_layer = set()
-        nodes_added_in_previous_layers = set()
-        layer_counter = {0: 0, 1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
-        layer_remaining_counter = {1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
-        current_layer = 0
-
+        # Select all direct regulators wrom builder table
+        c.execute('SELECT * FROM layer1 ORDER BY layer, id')
         while True:
-            line = c1.fetchone()
+            dirreg_row = c.fetchone()
+            if dirreg_row is None:
+                break
+            else:
+                # Filling up a dictionary where the keys are the node names and the
+                # keys are the edge lines
+                dirreg_dict[dirreg_row['interactor_a_node_name']] = dirreg_row
+                dirreg_dict[dirreg_row['interactor_b_node_name']] = dirreg_row
+    with conn1:
+        c1 = conn1.cursor()
+        # Select everything from merger
+        c1.execute('SELECT * FROM edge ORDER BY layer, id')
+        while True:
+            merger_line = c1.fetchone()
             counter += 1
             # Until the last row
             # For just 100 edges from each database
-            if line is None:
+            if merger_line is None:
                 print("building finished successfully! Please find the final statistics below:")
                 print("Edges processed in layer 0: %d" % layer_counter[0])
                 print("Edges processed in layer 1: %d (remaining: %d)" % (layer_counter[1], layer_remaining_counter[1]))
@@ -202,33 +188,26 @@ def build_whole(log, path):
                 print("Edges processed in layer 7: %d (remaining: %d)" % (layer_counter[7], layer_remaining_counter[7]))
                 break
             else:
-                with conn:
-                    c = conn.cursor()
-                    # Extracting L0 nodes
+                layer = merger_line['layer']
+                layer_counter[layer] += 1
 
-                    layer = line['layer']
-                    layer_counter[layer] += 1
+                if layer > current_layer:
+                    # we are just starting to process a new layer,
+                    # let's store all the new nodes from the layer we just finished
+                    nodes_added_in_previous_layers.update(nodes_added_in_current_layer)
+                    nodes_added_in_current_layer = set()
+                    current_layer = layer
 
-                    if layer > current_layer:
-                        # we are just starting to process a new layer,
-                        # let's store all the new nodes from the layer we just finished
-                        nodes_added_in_previous_layers.update(nodes_added_in_current_layer)
-                        nodes_added_in_current_layer = set()
-                        current_layer = layer
-
-                    if layer == 0:
-                        nodes_added_in_current_layer.add(line['interactor_a_node_name'])
-                        nodes_added_in_current_layer.add(line['interactor_b_node_name'])
-                        insert_new_edge(c, line)
-
-                    else:
-                        if line['interactor_a_node_name'] in nodes_added_in_previous_layers or line[
-                            'interactor_b_node_name'] in \
-                                nodes_added_in_previous_layers:
-                            layer_remaining_counter[layer] += 1
-                            nodes_added_in_current_layer.add(line['interactor_a_node_name'])
-                            nodes_added_in_current_layer.add(line['interactor_b_node_name'])
-                            insert_new_edge(c, line)
+                if merger_line['interactor_a_node_name'] in dirreg_dict.keys():
+                    layer_remaining_counter[layer] += 1
+                    nodes_added_in_current_layer.add(merger_line['interactor_a_node_name'])
+                    nodes_added_in_current_layer.add(merger_line['interactor_b_node_name'])
+                    insert_new_edge(c, dirreg_dict['interactor_a_node_name'])
+                elif merger_line['interactor_b_node_name'] in dirreg_dict.keys():
+                    layer_remaining_counter[layer] += 1
+                    nodes_added_in_current_layer.add(merger_line['interactor_a_node_name'])
+                    nodes_added_in_current_layer.add(merger_line['interactor_b_node_name'])
+                    insert_new_edge(c, dirreg_dict['interactor_b_node_name'])
 
 
 

@@ -85,10 +85,18 @@ def insert_new_node(c, node_dict):
 
 
 def build_base(log, merger_path):
+    """
+    Builds direct regulator layer of ARN
+    Searches for connections between ATG proteins and other proteins
+    :param log: logger
+    :param merger_path: location of merger database
+    :return: adds connections to layer1 of builder db
+    """
+
     # Creating output table for EDGES
     # merger_path = '../DATA/workflow/merger.db'
 
-    build_conn = sqlite3.connect('ARN_baselayers.db')
+    build_conn = sqlite3.connect('ARN_layers.db')
     # log.debug("Started connection to '%s'" % build_conn)
     with build_conn:
         build_cur = build_conn.cursor()
@@ -220,10 +228,17 @@ def build_base(log, merger_path):
 
 
 def build_whole(log, merger_path):
+    """
+    Searches for connections between direct regulators of ATG and other regulators
+    :param log: logger
+    :param merger_path: location of merger db
+    :return: add connections to builder db
+    """
+
     # Creating output table for EDGES
     merger_path = '../DATA/workflow/merger.db'
 
-    build_conn = sqlite3.connect('ARN_baselayers.db')
+    build_conn = sqlite3.connect('ARN_layers.db')
     merge_conn = sqlite3.connect(merger_path)
     merge_conn.row_factory = sqlite3.Row
     # log.debug("Started connection to '%s'" % build_conn)
@@ -314,6 +329,118 @@ def build_whole(log, merger_path):
                 number_of_nodes_added += 1
 
 
+def build_pth_conns(log, merger_path):
+    """
+    Searches for connections between SLK core layer and ARN regulators, creating pathway connections
+    :param log: logger
+    :param merger_path: location of merger db file
+    :return: dd connections to builder db
+    """
+
+    # Creating output table for EDGES
+    merger_path = '../DATA/workflow/merger.db'
+
+    build_conn = sqlite3.connect('ARN_layers.db')
+    merge_conn = sqlite3.connect(merger_path)
+    merge_conn.row_factory = sqlite3.Row
+    # log.debug("Started connection to '%s'" % build_conn)
+
+    counter = 0
+    nodes_added_in_current_layer = set()
+    all_nodes_to_add = set()
+    layer_counter = {0: 0, 1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
+    layer_remaining_counter = {1: 0, 2: 0, 3: 0, 5: 0, 6: 0, 7: 0, 8: 0}
+    layers = [8]
+
+    int_dict = {}
+    with build_conn:
+        build_cur = build_conn.cursor()
+        # Select all edges from builder
+        build_cur.execute('''SELECT * FROM layer1,
+                                           layer2,
+                                           layer3,
+                                           layer5,
+                                           layer6,
+                                           layer7
+                            ORDER BY layer, id''')
+        while True:
+            int_row = build_cur.fetchone()
+            if int_row is None:
+                break
+            else:
+                # Filling up a dictionary where the keys are the node names and the
+                # values are the edge lines
+                int_dict[int_row['interactor_a_node_name']] = int_row
+                int_dict[int_row['interactor_b_node_name']] = int_row
+
+    for eachlayer in layers:
+        with merge_conn:
+            merge_cur = merge_conn.cursor()
+            # Select everything from merger
+            merge_cur.execute('SELECT * FROM edge ORDER BY layer, id')
+            while True:
+                merger_line = merge_cur.fetchone()
+                counter += 1
+                # Until the last row
+                if merger_line is None:
+                    print("building finished successfully! Please find the final statistics below:")
+                    print("Edges processed in layer 0: %d" % layer_counter[0])
+                    print("Edges processed in layer 1: %d (remaining: %d)" % (
+                        layer_counter[1], layer_remaining_counter[1]))
+                    print("Edges processed in layer 2: %d (remaining: %d)" % (
+                        layer_counter[2], layer_remaining_counter[2]))
+                    print("Edges processed in layer 3: %d (remaining: %d)" % (
+                        layer_counter[3], layer_remaining_counter[3]))
+                    print("Edges processed in layer 5: %d (remaining: %d)" % (
+                        layer_counter[5], layer_remaining_counter[5]))
+                    print("Edges processed in layer 6: %d (remaining: %d)" % (
+                        layer_counter[6], layer_remaining_counter[6]))
+                    print("Edges processed in layer 7: %d (remaining: %d)" % (
+                        layer_counter[7], layer_remaining_counter[7]))
+                    break
+
+                else:
+                    current_layer = eachlayer
+                    layer = merger_line['layer']
+                    layer_counter[layer] += 1
+
+                    if merger_line['interactor_a_node_name'] in int_dict.keys():
+                        layer_remaining_counter[layer] += 1
+                        nodes_added_in_current_layer.add(merger_line['interactor_a_node_name'])
+                        nodes_added_in_current_layer.add(merger_line['interactor_b_node_name'])
+
+                        all_nodes_to_add.add(merger_line['interactor_b_node_name'])
+
+                        insert_new_edge(build_cur, merger_line)
+
+                    elif merger_line['interactor_b_node_name'] in int_dict.keys():
+                        layer_remaining_counter[layer] += 1
+                        nodes_added_in_current_layer.add(merger_line['interactor_a_node_name'])
+                        nodes_added_in_current_layer.add(merger_line['interactor_b_node_name'])
+
+                        all_nodes_to_add.add(merger_line['interactor_a_node_name'])
+
+                        insert_new_edge(build_cur, merger_line)
+
+    # Adding nodes
+    with merge_conn:
+        merge_cur = merge_conn.cursor()
+        merge_cur.execute('SELECT * FROM node ORDER BY name')
+        number_of_nodes_added = 0
+        while True:
+            node_line = merge_cur.fetchone()
+
+            if node_line is None:
+                print("total number of unique nodes found during build: %d" % len(all_nodes_to_add))
+                print("total number of unique nodes added to the output file: %d" % number_of_nodes_added)
+                break
+
+            if node_line['name'] in all_nodes_to_add:
+                insert_new_node(build_cur, node_line)
+                number_of_nodes_added += 1
+
+
 if __name__ == '__main__':
     build_base(log=None, merger_path='../DATA/workflow/merger.db')
     build_whole(log=None, merger_path='../DATA/workflow/merger.db')
+    build_pth_conns(log=None, merger_path='../DATA/workflow/merger.db')

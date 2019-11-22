@@ -9,7 +9,7 @@ from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 # Constants
 SQL_SEED = '../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE = 'ARN_chip-ms_Behrends.csv'
-EXPORT_DB_LOCATION = '../output/chip_behrends'
+DB_DESTINATION = '../output/chip_behrends'
 DB_TYPE = 'manual curation'
 
 # Initiating logger
@@ -76,7 +76,6 @@ def main(logger):
 
         for line in data:
             line = line.strip().split(';')
-            print(line[17])
             # Taxid
             if line[2] == '9606':
                 taxid_source = 'taxid:9606'
@@ -87,9 +86,33 @@ def main(logger):
             else:
                 taxid_target = line[10]
 
+            # Pathways
+            source_ptw_list = []
+            source_ptw_line = line[7].split(',')
+            for ptw in source_ptw_line:
+                ptw_new = ptw.strip().split('(')[0]
+                source_ptw_list.append(ptw_new)
+
+            source_ptw = '|'.join(source_ptw_list)
+
+            target_ptw_list = []
+            target_ptw_line = line[15].split(',')
+            for ptw in target_ptw_line:
+                ptw_new = ptw.strip().split('(')[0]
+                target_ptw_list.append(ptw_new)
+
+            target_ptw = '|'.join(target_ptw_list)
+
+            # Topology
+            source_topol = '|'.join(line[4].strip().split(','))
+
+            target_topol = '|'.join(line[12].strip().split(','))
+
+
+
             # Creating the node dicts, if the node is already in the db assigning that to the node dict
-            source_dict = get_node_a('uniprot:' + line[1], taxid_source, line[7], line[0], line[4], db_api)
-            target_dict = get_node_b('uniprot:' + line[9], taxid_target, line[15], line[8], line[12], db_api)
+            source_dict = get_node_a('Uniprot:' + line[1], taxid_source, source_ptw, line[0], source_topol, db_api)
+            target_dict = get_node_b('Uniprot:' + line[9], taxid_target, target_ptw, line[8], target_topol, db_api)
 
             # Nodes are inserted to the db if they are not in it yet
             if not 'id' in source_dict:
@@ -105,16 +128,61 @@ def main(logger):
                 'Autophagy regulators': '1'
             }
 
-            # Constructing interaction data line
-            int_types = '|'.join(['effect:' + line[19], 'is_directed:' + line[17].split(' ')[1],
-                                  'is_direct:' + line[18]])
+            # Is directed
+            directed_map = {
+                'PPI directed': 'true',
+                'PPI undirected': 'false'
+            }
+
+            # Is direct
+            direct_map = {
+                'direct': 'true'
+            }
+            is_direct = direct_map[line[18]]
+
+            # Effect
+            effect_map = {
+                'stimulation': 'MI:0624(stimulation)'
+            }
+
+            if line[19] != 'unknown':
+                effect = effect_map[line[19]]
+                # Constructing interaction data line
+                int_types = '|'.join([effect, 'is_directed:' + directed_map[line[17]],
+                                      'is_direct:' + is_direct])
+            else:
+                # Constructing interaction data line
+                int_types = '|'.join(['is_directed:' + directed_map[line[17]],
+                                      'is_direct:' + is_direct])
+
+            # Publications
+            pubs = '|pubmed:'.join(line[20].split('|'))
+
+            # Sourcedb mapping
+            sourcedb_map = {
+                'BioGRID': 'TheBiogrid',
+                'Behrends et Al. 2010': 'Behrends',
+                'direction is predicted': 'Behrends predicted'
+            }
+            dblist = []
+            for db in line[21].split(','):
+                sourcedb = db.strip().split('(')[0]
+                if 'pmid' not in sourcedb:
+                    if sourcedb in sourcedb_map.keys():
+                        mysourcedb = sourcedb_map[sourcedb]
+                    else:
+                        mysourcedb = sourcedb
+
+                    dblist.append(mysourcedb)
+
+            final_source = '|'.join(dblist)
 
             edge_dict = {
-                'publication_ids': 'pubmed:' + line[20],
+                'publication_ids': 'pubmed:' + pubs,
                 'layer': layer_dict[line[16]],
-                'source_db': line[21],
+                'source_db': final_source,
                 'interaction_identifiers': None,
-                'confidence_scores': line[23],
+                'confidence_scores': None,
                 'interaction_detection_method': None,
                 'interaction_types': int_types,
                 'first_author': None
@@ -123,10 +191,10 @@ def main(logger):
             db_api.insert_edge(source_dict, target_dict, edge_dict)
 
             # Saving the to a DB_TYPE.db file
-        db_api.save_db_to_file(EXPORT_DB_LOCATION)
+        db_api.save_db_to_file(DB_DESTINATION)
 
 
 if __name__ == '__main__':
     print("Parsing database...")
     main(logger=None)
-    print("Parsing database is completed. SQLite database is saved to: " + EXPORT_DB_LOCATION)
+    print("Parsing database is completed. SQLite database is saved to: " + DB_DESTINATION)

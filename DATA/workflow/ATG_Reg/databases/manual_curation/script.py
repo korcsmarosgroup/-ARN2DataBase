@@ -4,13 +4,13 @@
 
 # Imports
 import logging
-from ARN2Database.SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
+from SLKlib.SQLiteDBApi.sqlite_db_api import PsimiSQL
 
 # Defining constants
 SQL_SEED = '../../../../SLKlib/SQLiteDBApi/network-db-seed.sql'
 DATA_FILE_LIST = ['files/Autofágia Regulatory Network - TD-nek_2013. 09. 26..txt',
                   'files/Autofágia Regulatory Network - TD-nek_v2.txt']
-EXPORT_DB_LOCATION = '../output/manualcur'
+DB_DESTINATION = '../output/manualcur'
 DB_TYPE = 'manual curation'
 
 # Initiating logger
@@ -23,51 +23,52 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 
+def get_node_a(id, taxid, psi_mi_to_sql_object):
+    """
+    This function sets up a node dict and returns it.
+    If the node is already in the SQLite database it fetches that node from the db, so it won't be inserted multiple times.
+    """
+
+    # Testing if the node is already in the database
+
+    node_dict = psi_mi_to_sql_object.get_node(id, node_tax_id=taxid)
+
+    if not node_dict:
+        node_dict = {
+            "name": id,
+            "tax_id": taxid,
+            "alt_accession": None,
+            'pathways': None,
+            "aliases": None,
+            "topology": None
+        }
+
+    return node_dict
+
+
+def get_node_b(id, taxid, psi_mi_to_sql_object):
+    """
+    This function sets up a node dict and returns it. If the node is already in the SQLite database it fetches that node from the db, so it won't be inserted multiple times.
+
+    """
+
+    # Testing if the node is already in the database
+    node_dict = psi_mi_to_sql_object.get_node(id, node_tax_id=taxid)
+
+    if not node_dict:
+        node_dict = {
+            "name": id,
+            "tax_id": taxid,
+            "alt_accession": None,
+            'pathways': None,
+            "aliases": None,
+            "topology": None
+        }
+
+    return node_dict
+
+
 def main(logger):
-
-    def get_node_a(id, taxid, psi_mi_to_sql_object):
-        """
-        This function sets up a node dict and returns it.
-        If the node is already in the SQLite database it fetches that node from the db, so it won't be inserted multiple times.
-        """
-
-        # Testing if the node is already in the database
-
-        node_dict = psi_mi_to_sql_object.get_node(id, node_tax_id=taxid)
-
-        if not node_dict:
-            node_dict = {
-                "name": id,
-                "tax_id": taxid,
-                "alt_accession": None,
-                'pathways': 'ATG core',
-                "aliases": None,
-                "topology": None
-            }
-
-        return node_dict
-
-    def get_node_b(id, taxid, psi_mi_to_sql_object):
-        """
-        This function sets up a node dict and returns it. If the node is already in the SQLite database it fetches that node from the db, so it won't be inserted multiple times.
-
-        """
-
-        # Testing if the node is already in the database
-        node_dict = psi_mi_to_sql_object.get_node(id, node_tax_id=taxid)
-
-        if not node_dict:
-            node_dict = {
-                "name": id,
-                "tax_id": taxid,
-                "alt_accession": None,
-                'pathways': 'ATG core',
-                "aliases": None,
-                "topology": None
-            }
-
-        return node_dict
-
     # Initiating the parser
     db_api = PsimiSQL(SQL_SEED)
 
@@ -91,15 +92,15 @@ def main(logger):
                 if line[0] == 'human':
                     taxid_source = 'taxid:9606'
                 else:
-                    taxid_source = line[0]
+                    pass
                 if line[2] == 'human':
                     taxid_target = 'taxid:9606'
                 else:
-                    taxid_target = line[2]
+                    pass
 
                 # Creating the node dicts, if the node is already in the db assigning that to the node dict
-                source_dict = get_node_a(line[1], taxid_source, db_api)
-                target_dict = get_node_b(line[3], taxid_target, db_api)
+                source_dict = get_node_a('Uniprot:' + line[1], taxid_source, db_api)
+                target_dict = get_node_b('Uniprot:' + line[3], taxid_target, db_api)
 
                 # Nodes are inserted to the db if they are not in it yet
                 if not 'id' in source_dict:
@@ -125,7 +126,7 @@ def main(logger):
                 elif line[8] == 'I':
                     stimulation = 'MI:0586(inhibitor)'
                 else:
-                    stimulation = 'N/A'
+                    pass
                 # Molecular background
                 molec_map = {
                     'P': 'MI:0217(phosphorylation reaction)',
@@ -145,13 +146,13 @@ def main(logger):
                 }
 
                 # Constructing interaction data line
-                int_types = '|'.join(['effect:' + stimulation, 'is_directed:' + directed,
-                                      'is_direct:' + direct, 'molecular_background:' + molec_map[line[9]]])
+                int_types = '|'.join([stimulation, molec_map[line[9]],
+                                      'is_direct:' + 'true', 'is_directed:' + 'true'])
 
                 edge_dict = {
                     'publication_ids': 'pubmed:' + line[4],
                     'layer': '1',
-                    'source_db': 'Manual curation',
+                    'source_db': 'manual curation',
                     'interaction_identifiers': None,
                     'confidence_scores': None,
                     'interaction_detection_method': None,
@@ -162,10 +163,10 @@ def main(logger):
                 db_api.insert_edge(source_dict, target_dict, edge_dict)
 
     # Saving the to a DB_TYPE.db file
-    db_api.save_db_to_file(EXPORT_DB_LOCATION)
+    db_api.save_db_to_file(DB_DESTINATION)
 
 
 if __name__ == '__main__':
     print("Parsing database...")
     main(logger=None)
-    print("Parsing database is completed. SQLite database is saved to: " + EXPORT_DB_LOCATION)
+    print("Parsing database is completed. SQLite database is saved to: " + DB_DESTINATION)

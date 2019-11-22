@@ -8,7 +8,7 @@ import json
 
 
 # Defining executing functions for each layer, where possible using auto download from the database website
-def run_layer0(db, log, path):
+def run_layer8(db, log, path):
 
     if db == 'acsn':
         pathway_file_loc = path + 'acsn_v1_pathway_file.gmt'
@@ -204,15 +204,18 @@ def run_layer3(db, log, path):
         from DATA.workflow.ATG_Reg.databases.chip_behrends import chip_script
         chip_script.SQL_SEED = '../../SLKlib/SQLiteDBApi/network-db-seed.sql'
         chip_script.DATA_FILE = path + 'ARN_chip-ms_Behrends.csv'
-        chip_script.EXPORT_DB_LOCATION = 'all_output/chip_behrends'
+        chip_script.DB_DESTINATION = 'all_output/chip_behrends'
+
+        return chip_script.main(logger=log)
 
     elif db == 'manual_curation':
         from DATA.workflow.ATG_Reg.databases.manual_curation import script
         script.SQL_SEED = '../../SLKlib/SQLiteDBApi/network-db-seed.sql'
-        script.DATA_FILE_list = [path + 'Autofágia Regulatory Network - TD-nek_2013. 09. 26..txt',
+        script.DATA_FILE_LIST = [path + 'Autofágia Regulatory Network - TD-nek_2013. 09. 26..txt',
                                  path + 'Autofágia Regulatory Network - TD-nek_v2.txt']
-        script.EXPORT_DB_LOCATION = 'all_output/manual_curation'
+        script.DB_DESTINATION = 'all_output/manual_curation'
 
+        return script.main(logger=log)
     elif db == 'biogrid':
         from DATA.workflow.ATG_Reg.databases.biogrid import new_script
         new_script.SQL_SEED = '../../SLKlib/SQLiteDBApi/network-db-seed.sql'
@@ -391,11 +394,29 @@ def run_layer7(db, log, path):
         return script.main(logger=log)
 
 
-DB_DICT = json.load(open('sources.json'), object_pairs_hook=OrderedDict)
+def run_layer0(db, log, path):
+    if db == 'ARN1Core':
+        from DATA.workflow.ATG_Core.databases.ARN1Core import script
+
+        script.SQL_SEED = '../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+        script.DATA_FILE = path + 'Layer0.csv'
+        script.DB_DESTINATION = 'all_output/ARN1Core'
+        return script.main(logger=log)
+
+    elif db == 'manual_curation':
+        from DATA.workflow.ATG_Core.databases.manual_curation import script
+
+        script.SQL_SEED = '../../SLKlib/SQLiteDBApi/network-db-seed.sql'
+        script.DATA_FILE = path + 'manual_curation_ARN2.csv'
+        script.DB_DESTINATION = 'all_output/ATG_mancur'
+        return script.main(logger=log)
+
+
+DB_DICT = json.load(open('test_sources.json'), object_pairs_hook=OrderedDict)
 
 # Initiating logger
 logger = logging.getLogger()
-handler = logging.FileHandler('SLK3.log')
+handler = logging.FileHandler('ARN2.log')
 logger.setLevel(logging.DEBUG)
 handler.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -409,8 +430,10 @@ for layer in DB_DICT.keys():
         print("Started parsing %s" % db)
         runpath = layer + '/databases/' + db + '/files/'
 
-        if layer == 'SLK_Core':
+        if layer == 'ATG_Core':
             run_layer0(db, log=logger, path=runpath)
+        elif layer == 'SLK_Core':
+            run_layer8(db, log=logger, path=runpath)
         elif layer == 'layer1':
             run_layer1(db, log=logger, path=runpath)
         elif layer == 'PTM':

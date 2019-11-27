@@ -61,8 +61,6 @@ with map_db:
     map_db.cursor().execute("CREATE INDEX mapp_uniprot ON MAPP(uniprot_ac);")
 
 
-
-
 # Mapping function
 @functools.lru_cache(maxsize=None)
 def map_uniprot_to_gene(uniprot):
@@ -302,6 +300,39 @@ def get_node_data(builder_location):
                                 })
                 # External ref
                 node_dict['externalReferences'] = []
+                # Autophagy function
+                func_data_file = 'AP_function.csv'
+                with open(func_data_file) as func_data:
+                    func_data.readline()
+                    for line in func_data:
+                        line = line.strip().split(',')
+                        name = line[0]
+                        func = line[1]
+
+                        if gene_name == name:
+                            node_dict['autophagyState'] = {
+                                "value": func,
+                                "db": None,
+                                "url": None,
+                                "searchable": False
+                            }
+
+                # Gene ontology annotation
+                GO_data_file = 'GO-AP-and-regulators.csv'
+                with open(GO_data_file) as GO_data:
+                    for line in GO_data:
+                        line = line.strip().split(';')
+                        AC = line[0]
+                        annot = line[1]
+                        GO_ID = line[2].split('[')[1].replace(']', '')
+
+                        if uniprot_id == AC:
+                            node_dict['geneOntologyAnnotation'] = {
+                                "value": GO_ID + '(' + annot + ')',
+                                "db": None,
+                                "url": 'http://www.geneontology.org/',
+                                "searchable": False
+                            }
 
                 # Molecule type
                 # If RNA

@@ -236,7 +236,7 @@ def build_whole(log, merger_path):
     """
 
     # Creating output table for EDGES
-    merger_path = '../DATA/workflow/merger.db'
+    # merger_path = '../DATA/workflow/merger.db'
 
     build_conn = sqlite3.connect('ARN_layers.db')
     merge_conn = sqlite3.connect(merger_path)
@@ -255,7 +255,7 @@ def build_whole(log, merger_path):
     with build_conn:
         build_cur = build_conn.cursor()
         # Select all direct regulators from builder table
-        build_cur.execute('SELECT * FROM layer1 ORDER BY layer, id')
+        build_cur.execute('SELECT * FROM layer1 ORDER BY layer')
         while True:
             dirreg_row = build_cur.fetchone()
             if dirreg_row is None:
@@ -338,7 +338,7 @@ def build_pth_conns(log, merger_path):
     """
 
     # Creating output table for EDGES
-    merger_path = '../DATA/workflow/merger.db'
+    # merger_path = '../DATA/workflow/merger.db'
 
     build_conn = sqlite3.connect('ARN_layers.db')
     merge_conn = sqlite3.connect(merger_path)
